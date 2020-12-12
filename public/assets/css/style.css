@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+html{
+    background-color: rgb(251, 222, 142);
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    height: 140vh;
+}
+
+.body_home{
+    margin: 0;
+    background-color: white;
+    position: absolute;
+    width: 1152px;
+    height: 864px;
+    left: 150px;
+    top: 113px;
+    border-radius: 20px;
+}
+header{
+    position: relative;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav img{
+    position: absolute;
+    width: 192px;
+    height: 33px;
+    left: 80px;
+    top: 23px;
+}
+header nav ul{
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    position: absolute;
+    width: 737px;
+    height: 40px;
+    left: 387px;
+    top: 20px;
+    z-index: 999;
+}
+
+header nav ul li a{
+    text-decoration: none;
+}
+
+header nav ul li:hover a{
+    color: #DAA520;
+}
+
+header nav ul li a{
+    color: black;
+}
+
+header nav ul li:last-of-type a{
+    border: 1px solid #3E3F43;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px 40px;
+}
+
+.back{
+    position: absolute;
+    width: 370px;
+    height: 800px;
+    left: 782px;
+    top: 0px;
+    background: #F9BDBD;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 20px;
+}
+
+main section{
+    position: relative;
+}
+
+main section h3{
+    position: absolute;
+    width: 504px;
+    height: 98px;
+    left: 102px;
+    top: 217px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
+}
+
+main section h1{
+    position: absolute;
+    width: 504px;
+    height: 196px;
+    left: 102px;
+    top: 331px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    color: #313235;
+}
+
+#img_home1{
+    position: absolute;
+    width: 568px;
+    height: 577px;
+    left: 584px;
+    top: 165px;
+    z-index: 9;
+}
+
+#img_home2{
+    position: absolute;
+    width: 382px;
+    height: 382px;
+    left: 522px;
+    top: 400px;
+}
+
+#btn_home{
+    position: absolute;
+    width: 175px;
+    height: 50px;
+    left: 102px;
+    top: 600px;
+    border: none;
+    background: #DAA520;
+    border-radius: 4px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
