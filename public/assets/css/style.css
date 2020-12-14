@@ -141,3 +141,51 @@ main section h1{
     line-height: 22px;
     color: #FFFFFF;
 }
+
+
+/*////////// About ////////// */
+
+/* header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav img{
+    position: absolute;
+    width: 192px;
+    height: 33px;
+    left: 80px;
+    top: 23px;
+}
+header nav ul{
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    position: absolute;
+    width: 737px;
+    height: 40px;
+    left: 387px;
+    top: 20px;
+    z-index: 999;
+}
+
+header nav ul li a{
+    text-decoration: none;
+}
+
+header nav ul li:hover a{
+    color: #DAA520;
+}
+
+header nav ul li a{
+    color: black;
+}
+
+header nav ul li:last-of-type a{
+    border: 1px solid #3E3F43;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px 40px;
+} */
